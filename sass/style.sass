@@ -1,0 +1,187 @@
+*
+	padding: 0
+	margin: 0
+	font-family: 'Open Sans', sans-serif
+	box-sizing: border-box
+
+.container  
+	width: 1160px
+	margin: 0 auto
+
+.header 
+	padding-bottom: 10px
+	.nav    
+		display: flex
+		justify-content: space-between	
+		align-items: center	
+		.logo
+			margin-top: 20px
+			a
+				display: flex
+				color: #000000
+				text-decoration: none
+				.text
+					margin-top: -6px
+					.name
+						font-size: 22px 
+						font-weight: 700
+						text-transform: uppercase
+					.descr
+						margin-top: -6px
+						font-size: 11px 
+		.menu
+			display: flex
+			justify-content: space-between	
+			margin-top: 4px
+			margin-left: 220px	
+			.item				
+				list-style-type: none
+				a			
+					margin-left: 30px
+					font-size: 13px
+					font-weight: 700						
+					color: #000000	
+					text-decoration: none
+					text-transform: uppercase				
+					&:hover
+						text-decoration: underline
+		.hamburger
+			margin-left: 10px
+			display: block
+			width: 20px
+			margin-top: 8px
+			cursor: pointer
+			span
+				display: block
+				height: 2px
+				width: 100%
+				background-color: #000
+				margin-bottom: 4px			
+		.contacts
+			margin-left: 30px
+			.email
+				font-size: 13px			
+				color: #ec8211
+				font-weight: 700
+				text-transform: uppercase
+			.phone
+				font-size: 13px						
+				font-weight: 700
+				text-align: right
+				a
+					text-decoration: none
+					color: #000000
+.right
+	position: fixed
+	padding: 0 30px 100px 0
+	width: calc((100% - 1160px) / 2)
+	background: #fff
+	top: 0
+	bottom: 0
+	left: 0
+	display: flex
+	flex-direction: column
+	justify-content: flex-end
+	align-items: flex-end
+	a
+		margin-top: 20px
+		font-size: 20px
+	.line	
+		margin-top: 40px
+		margin-right: 10px
+		height: 90px
+		border: 1px solid #000
+.promo
+	margin-left: calc((100% - 1160px) / 2)
+	min-height: 390px	
+	background: url(../img/main-slide.jpg) center (center/cover) no-repeat
+	padding-top: 100px	
+	padding-bottom: 100px	
+	.wrapper
+		width: 1160px		
+		min-height: 290px
+		background: rgba(255, 255, 255, .70)
+		padding-top: 50px	
+		padding-bottom: 50px
+		.title
+			margin-left: 62px
+			font-size: 26px
+			text-transform: uppercase
+			letter-spacing: 2px	
+			span
+				color: #ec8211
+		hr
+			width: 132px
+			margin-left: 48%
+			border: 2px solid #ec8211
+		.descr
+			width: 500px
+			margin-top: 15px
+			margin-left: 48%
+			font-size: 13px
+			line-height: 27px	
+		.button
+			display: flex
+			justify-content: space-around
+			align-items: center
+			width: 323px
+			height: 50px
+			margin-top: 30px
+			margin-left: 48%
+			background-color: #ec8211
+			color: #ffffff
+			font-size: 14px
+			font-weight: 700
+			text-transform: uppercase
+			border: none
+			cursor: pointer
+			img
+				margin-left: -70px
+			&:hover
+				background-color: #df7c12
+.about
+	margin-left: calc((100% - 1160px) / 2)
+	min-height: 290px	
+	background-color: #F3F3F3
+	padding-top: 50px
+	padding-bottom: 50px
+	.title
+		margin-left: 62px
+		font-size: 26px
+		text-transform: uppercase
+		letter-spacing: 1px	
+	.descr	
+		margin-top: 20px
+		margin-left: 62px
+		font-size: 13px
+		line-height: 23px
+	.wrapper	
+		margin-top: 60px
+		width: 1100px
+		display: flex
+		justify-content: space-around
+		.block
+			width: 250px
+			height: 200px			
+			&:nth-child(1)
+				margin-left: 100px			
+			&-title
+				margin-top: 45px
+				font-size: 16px
+				font-weight: 700
+				text-transform: uppercase
+			#line-one
+				margin-top: 5px
+				width: 88px
+				border: 1px solid #87C34B
+			#line-two
+				margin-top: 5px
+				width: 70px
+				border: 1px solid #AD3572
+			#line-three
+				margin-top: 5px
+				width: 130px
+				border: 1px solid #1E98C0
+			&-descr	
+				margin-top: 10px
+				font-size: 13px

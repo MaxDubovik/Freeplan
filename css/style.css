@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.container {
+  width: 1160px;
+  margin: 0 auto; }
+
+.header {
+  padding-bottom: 10px; }
+  .header .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header .nav .logo {
+      margin-top: 20px; }
+      .header .nav .logo a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        color: #000000;
+        text-decoration: none; }
+        .header .nav .logo a .text {
+          margin-top: -6px; }
+          .header .nav .logo a .text .name {
+            font-size: 22px;
+            font-weight: 700;
+            text-transform: uppercase; }
+          .header .nav .logo a .text .descr {
+            margin-top: -6px;
+            font-size: 11px; }
+    .header .nav .menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      margin-top: 4px;
+      margin-left: 220px; }
+      .header .nav .menu .item {
+        list-style-type: none; }
+        .header .nav .menu .item a {
+          margin-left: 30px;
+          font-size: 13px;
+          font-weight: 700;
+          color: #000000;
+          text-decoration: none;
+          text-transform: uppercase; }
+          .header .nav .menu .item a:hover {
+            text-decoration: underline; }
+    .header .nav .hamburger {
+      margin-left: 10px;
+      display: block;
+      width: 20px;
+      margin-top: 8px;
+      cursor: pointer; }
+      .header .nav .hamburger span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: #000;
+        margin-bottom: 4px; }
+    .header .nav .contacts {
+      margin-left: 30px; }
+      .header .nav .contacts .email {
+        font-size: 13px;
+        color: #ec8211;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .header .nav .contacts .phone {
+        font-size: 13px;
+        font-weight: 700;
+        text-align: right; }
+        .header .nav .contacts .phone a {
+          text-decoration: none;
+          color: #000000; }
+
+.right {
+  position: fixed;
+  padding: 0 30px 100px 0;
+  width: calc((100% - 1160px) / 2);
+  background: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+  .right a {
+    margin-top: 20px;
+    font-size: 20px; }
+  .right .line {
+    margin-top: 40px;
+    margin-right: 10px;
+    height: 90px;
+    border: 1px solid #000; }
+
+.promo {
+  margin-left: calc((100% - 1160px) / 2);
+  min-height: 390px;
+  background: url(../img/main-slide.jpg) center center/cover no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .promo .wrapper {
+    width: 1160px;
+    min-height: 290px;
+    background: rgba(255, 255, 255, 0.7);
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .promo .wrapper .title {
+      margin-left: 62px;
+      font-size: 26px;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
+      .promo .wrapper .title span {
+        color: #ec8211; }
+    .promo .wrapper hr {
+      width: 132px;
+      margin-left: 48%;
+      border: 2px solid #ec8211; }
+    .promo .wrapper .descr {
+      width: 500px;
+      margin-top: 15px;
+      margin-left: 48%;
+      font-size: 13px;
+      line-height: 27px; }
+    .promo .wrapper .button {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 323px;
+      height: 50px;
+      margin-top: 30px;
+      margin-left: 48%;
+      background-color: #ec8211;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer; }
+      .promo .wrapper .button img {
+        margin-left: -70px; }
+      .promo .wrapper .button:hover {
+        background-color: #df7c12; }
+
+.about {
+  margin-left: calc((100% - 1160px) / 2);
+  min-height: 290px;
+  background-color: #F3F3F3;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .about .title {
+    margin-left: 62px;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .about .descr {
+    margin-top: 20px;
+    margin-left: 62px;
+    font-size: 13px;
+    line-height: 23px; }
+  .about .wrapper {
+    margin-top: 60px;
+    width: 1100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .about .wrapper .block {
+      width: 250px;
+      height: 200px; }
+      .about .wrapper .block:nth-child(1) {
+        margin-left: 100px; }
+      .about .wrapper .block-title {
+        margin-top: 45px;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .about .wrapper .block #line-one {
+        margin-top: 5px;
+        width: 88px;
+        border: 1px solid #87C34B; }
+      .about .wrapper .block #line-two {
+        margin-top: 5px;
+        width: 70px;
+        border: 1px solid #AD3572; }
+      .about .wrapper .block #line-three {
+        margin-top: 5px;
+        width: 130px;
+        border: 1px solid #1E98C0; }
+      .about .wrapper .block-descr {
+        margin-top: 10px;
+        font-size: 13px; }
+
+/*# sourceMappingURL=style.css.map */
